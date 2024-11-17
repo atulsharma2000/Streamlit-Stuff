@@ -1,10 +1,14 @@
 import streamlit as st
 from PIL import Image
 
+from forms.contact import contact_form
+
+
+
+
 @st.dialog("Contact Me")  # this is to show form in the pop up window
 def show_contact_form():
-    st.text_input("First Name")
-    st.text_input("First Name")
+    contact_form()
 
 # ----hero section-------
 col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
