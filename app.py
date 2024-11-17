@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Awesome website !")
+
 
 #  setting up the pages
 
@@ -37,7 +37,10 @@ pg = st.navigation(
 )
 
 
+#----shared on all pages
 
+st.logo("assests/atul_3logo.png",size="large")
+st.sidebar.text("Made by 🧑‍💻 Atul 🧑‍💻")
 
 # run the navigation
 pg.run()
