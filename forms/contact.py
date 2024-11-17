@@ -6,7 +6,7 @@ import requests     # for webhook
 # - Webhooks are just informing no code tools every time there is new submission
 
 
-WEBHOOK_URL = "https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjYwNTZjMDYzMTA0M2M1MjZmNTUzMDUxMzAi_pc"
+WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
 
 def is_valid_email(email):
     # basic regex for email validation
