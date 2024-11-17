@@ -1,3 +1,4 @@
 pandas
 Requests
 streamlit
+pillow
