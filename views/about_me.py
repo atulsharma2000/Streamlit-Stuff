@@ -16,8 +16,9 @@ col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
     # st.image("./", width=230)  # Directly referencing the image
     # Opening the image
-    image = Image.open("C:\\Users\\Admin\\Desktop\\streamlit baby\\Streamlit-Stuff\\assests\\my_2photo.png")
-    st.image(image, width=230)
+    IMAGE_PATH = st.secrets["IMAGE_PATH"]
+    IMAGE = Image.open(IMAGE_PATH)
+    st.image(IMAGE, width=230)
 
 with col2:
     st.title("Atul Sharma", anchor=False)
