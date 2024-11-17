@@ -1,9 +1,8 @@
 import streamlit as st
 from PIL import Image
 
+
 from forms.contact import contact_form
-
-
 
 
 @st.dialog("Contact Me")  # this is to show form in the pop up window
@@ -16,9 +15,11 @@ col1, col2 = st.columns(2, gap="small", vertical_alignment="center")
 with col1:
     # st.image("./", width=230)  # Directly referencing the image
     # Opening the image
-    IMAGE_PATH = st.secrets["IMAGE_PATH"]
+    
+    IMAGE_PATH = "./assests/my_2photo.png"   
     IMAGE = Image.open(IMAGE_PATH)
     st.image(IMAGE, width=230)
+    
 
 with col2:
     st.title("Atul Sharma", anchor=False)

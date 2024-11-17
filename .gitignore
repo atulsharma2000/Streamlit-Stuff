@@ -6,7 +6,7 @@ __pycache__/
 # stream lit secrets
 .streamlit/secrets.toml
 
-./assests/my_2photo.png
+
 
 # C extensions
 *.so
