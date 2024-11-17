@@ -1,7 +1,9 @@
 import streamlit as st
 from PIL import Image
 
+@st.dialog("Contact Me")  # this is to show form in the pop up window
 def show_contact_form():
+    st.text_input("First Name")
     st.text_input("First Name")
 
 # ----hero section-------
