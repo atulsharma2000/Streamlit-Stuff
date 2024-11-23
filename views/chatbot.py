@@ -50,9 +50,3 @@ events = fetch_github_contributions(username)
 if events:  # Only plot if events were successfully fetched
     contribution_count = count_contributions(events)
     plot_contributions(contribution_count)
-
-
-print("\n")
-# =================================
-
-
