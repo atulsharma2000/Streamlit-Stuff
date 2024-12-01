@@ -64,3 +64,9 @@ st.write(
     - Data Science Tools: Tableau, Power BI, Excel, pandas, NumPy, Matplotlib
     """
 )
+
+# --- Projects ---
+st.write("\n")
+st.subheader("Projects", anchor=False)
+
+
